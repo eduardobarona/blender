@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container__blender{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 18rem;
+    height: 30rem;
+    background-image: url(../images/offBlender.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container__blender_active{
+    background-image: url(../images/onBlender.gif);
+}
+
+.container__blender_button{
+    width: 4rem;
+    height: 4rem;
+    background-color: blue;
+    margin-bottom: 4.5rem;
+}
