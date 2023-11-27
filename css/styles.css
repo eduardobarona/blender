@@ -23,13 +23,12 @@
     background-repeat: no-repeat;
 }
 
-.container__blender_active{
+.container__blender.active{
     background-image: url(../images/onBlender.gif);
 }
 
 .container__blender_button{
-    width: 4rem;
-    height: 4rem;
-    background-color: blue;
-    margin-bottom: 4.5rem;
+    width: 1.1rem;
+    height: 1.4rem;
+    margin-bottom: 5.6rem;
 }
