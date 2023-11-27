@@ -10,9 +10,9 @@ button.addEventListener('click', ()=>{
         blenderStatus = "ON";
         blenderButtonSound.play();
         setTimeout(function() {
-            blenderSound.play();;
+            blenderSound.play();
+            blender.classList.add("active");
         }, 100);
-        blender.classList.add("active");
     }else{
         blenderStatus = "OFF";
         blender.classList.remove("active");
