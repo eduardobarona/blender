@@ -25,7 +25,7 @@ Welcome to the Blender Simulator project! This project is a simple web applicati
 
 ## Live Demo
 
-Check out the live demo: [Blender Simulator](https://blender-edubarona.netlify.app/)
+Check out the live demo: <a href="https://blender-edubarona.netlify.app/" target="_blank">Blender Simulator</a>
 
 ## Personalization
 
